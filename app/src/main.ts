@@ -4,10 +4,14 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 // DoomGuy lib
 import { goCrazy } from 'doomguy' // TODO: missing d.ts file
+import { log } from "doomguy/log"
+
 
 goCrazy([{
   name: "Lazy Doom Guy"
 }])
+log("Lazyyyyyyyyy!")
+
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
