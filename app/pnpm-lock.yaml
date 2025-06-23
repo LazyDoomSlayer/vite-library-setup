@@ -4,9 +4,16 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  doomguy: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
+
 importers:
 
   .:
+    dependencies:
+      doomguy:
+        specifier: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
+        version: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
     devDependencies:
       typescript:
         specifier: ~5.8.3
