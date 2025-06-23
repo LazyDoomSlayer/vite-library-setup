@@ -2,6 +2,12 @@ import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
+// DoomGuy lib
+import { goCrazy } from 'doomguy' // TODO: missing d.ts file
+
+goCrazy([{
+  name: "Lazy Doom Guy"
+}])
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -22,3 +28,5 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+
+
