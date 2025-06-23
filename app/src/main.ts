@@ -3,11 +3,11 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 // DoomGuy lib
-import { gocrazy } from 'doomguy' // todo: missing d.ts file
+import { goCrazy } from 'doomguy' // todo: missing d.ts file
 import { log } from "doomguy/log"
 
 
-gocrazy([{
+goCrazy([{
   name: "lazy doom guy"
 }])
 log("lazyyyyyyyyy!")
