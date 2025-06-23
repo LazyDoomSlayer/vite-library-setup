@@ -25,5 +25,8 @@
 		"@biomejs/biome": "2.0.5",
 		"typescript": "~5.8.3",
 		"vite": "^6.3.5"
+	},
+	"peerDependencies": {
+		"moment": "^2.30.1"
 	}
 }

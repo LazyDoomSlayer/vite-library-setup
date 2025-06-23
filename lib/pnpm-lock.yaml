@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      moment:
+        specifier: ^2.30.1
+        version: 2.30.1
     devDependencies:
       '@biomejs/biome':
         specifier: 2.0.5
@@ -344,6 +348,9 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+  moment@2.30.1:
+    resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
+
   nanoid@3.3.11:
     resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -626,6 +633,8 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
+
+  moment@2.30.1: {}
 
   nanoid@3.3.11: {}
 
