@@ -1,6 +1,5 @@
 {
-	"name": "doomguy",
-	"private": false,
+	"name": "@lazydoomslayer/doomguy",
 	"license": "MIT",
 	"version": "1.0.0",
 	"type": "module",
