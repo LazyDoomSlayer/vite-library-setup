@@ -1,8 +1,9 @@
 // DoomGuy lib
-const { goCrazy } = require('doomguy') // TODO: missing d.ts file
+const { goCrazy } = require('doomguy')
 const { log } = require("doomguy/log")
 
+
 goCrazy([{
-  name: "Lazy Doom Guy"
+  name: "Doomy"
 }])
 log("Lazyyyyyyyyy!")

@@ -7,6 +7,7 @@ settings:
 overrides:
   doomguy: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
   '@lazydoomslayer/doomguy': link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
+  doom: link:../../../../../.local/share/pnpm/global/5/node_modules/doom
 
 importers:
 
@@ -15,6 +16,9 @@ importers:
       '@lazydoomslayer/doomguy':
         specifier: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
         version: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
+      doom:
+        specifier: link:../../../../../.local/share/pnpm/global/5/node_modules/doom
+        version: link:../../../../../.local/share/pnpm/global/5/node_modules/doom
       doomguy:
         specifier: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
         version: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
