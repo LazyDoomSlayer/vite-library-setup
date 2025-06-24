@@ -13,6 +13,7 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "@lazydoomslayer/doomguy": "link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy",
     "doomguy": "link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy"
   }
 }

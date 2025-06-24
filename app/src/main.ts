@@ -6,7 +6,6 @@ import { setupCounter } from './counter.ts'
 import { goCrazy } from 'doomguy' // todo: missing d.ts file
 import { log } from "doomguy/log"
 
-
 goCrazy([{
   name: "lazy doom guy"
 }])

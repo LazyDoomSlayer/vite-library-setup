@@ -1,2 +1,3 @@
 overrides:
   doomguy: link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
+  '@lazydoomslayer/doomguy': link:../../../../../.local/share/pnpm/global/5/node_modules/doomguy
