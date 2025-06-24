@@ -1,6 +1,6 @@
 import moment from "moment";
 
-export function goCrazy(array: unknown[]): void {
+export function goCrazy(array: IGoCrazy[]): void {
 	console.log(moment().format("MMMM Do YYYY, h:mm:ss a"));
 
 	console.log(array);
